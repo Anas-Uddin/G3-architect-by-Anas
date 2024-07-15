@@ -3,3 +3,36 @@
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.text-slategrey{
+    color: slategray;
+}
+.text-grey{
+    color: gray;
+}
+.bg-light{
+    background-color: rgb(210, 190, 153);
+}
+/* header styles*/
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 25px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
